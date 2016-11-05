@@ -1,0 +1,23 @@
+{
+    "name": "vanry/readability",
+    "description": "Automatic article content extraction from html and html parser.",
+    "keywords": ["readability", "extraction", "html", "parser"],
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "homepage": "http://vanry.me",
+    "authors": [
+        {
+            "name": "vanry",
+            "email": "ivanry@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Readability\\": "src/"
+        }
+    }
+}
