@@ -12,8 +12,8 @@ $readability = new Readability\Readability($html);
 
 echo 'Title: '.$readability->title().PHP_EOL;
 echo 'Date: '.$readability->date().PHP_EOL;
-echo 'Text: '.$readability->text().PHP_EOL;
 echo 'Content: '.$readability->content().PHP_EOL;
+echo 'Text: '.$readability->text().PHP_EOL;
 echo 'WordCount: '.$readability->wordCount().PHP_EOL;
 
 // image source
