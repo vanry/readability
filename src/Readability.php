@@ -125,6 +125,8 @@ class Readability
      */
     public function load($source, $charset = "utf-8")
     {
+        $this->clear();
+        
         $this->source = $source;
 
         // Convert charset to HTML-ENTITIES.
@@ -154,6 +156,12 @@ class Readability
         }
 
         return $this;
+    }
+
+    public function clear()
+    {
+        $this->node = null;
+        $this->content = null;
     }
 
     /**
